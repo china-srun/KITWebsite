@@ -1,0 +1,102 @@
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/image/bg1.jpg);
+    height: 40rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 40rem;
+}
+
+ul li a:hover{
+    color: #CB2234!important;
+    transform: scale(1.03);
+    text-decoration: underline;
+}
+
+.header-content{
+    margin-top: 50px;
+}
+
+
+button:hover{
+    background-color: #CB2234!important;
+    transform: scale(1.05);
+}
+
+main{
+    height: 320px;
+    background-color: #333333;
+}
+
+
+.content{
+    background-color: rgb(66, 65, 65);
+    height: 1430px;
+    color: white;
+}
+
+.pres-name{
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+.department img{
+    filter: brightness(40%);
+    height: 230px;
+}
+
+.department h5{
+    text-align: center;
+    padding-top: 30%;
+}
+
+.department a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(172, 169, 169);
+}
+
+.department a:hover{
+    color: #CB2234;
+    transform : scale(1.1);
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.enroll {
+    background-color: #3a3939;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.admission-button:hover{
+    transform: scale(1.1);
+}
+
+.cont-logo a:hover{
+    transform: scale(1.1);
+    color: #CB2234;
+}
+.cont-logo i {
+    display: flex;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:1000px){
+    main{
+        height: 2000px;
+    }
+    .content{
+        height: 3700px;
+    }
+    .department img{
+        height: 400px;
+    }
+    
+}
+
